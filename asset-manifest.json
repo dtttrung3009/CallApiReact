@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CallApiReact/static/css/main.f8341c9f.chunk.css",
+    "main.js": "/CallApiReact/static/js/main.47dda533.chunk.js",
+    "main.js.map": "/CallApiReact/static/js/main.47dda533.chunk.js.map",
+    "runtime-main.js": "/CallApiReact/static/js/runtime-main.1d35c712.js",
+    "runtime-main.js.map": "/CallApiReact/static/js/runtime-main.1d35c712.js.map",
+    "static/js/2.e81d7a0e.chunk.js": "/CallApiReact/static/js/2.e81d7a0e.chunk.js",
+    "static/js/2.e81d7a0e.chunk.js.map": "/CallApiReact/static/js/2.e81d7a0e.chunk.js.map",
+    "index.html": "/CallApiReact/index.html",
+    "precache-manifest.ff5e4dec3d6b7dd1aa2e2cc93360cf6b.js": "/CallApiReact/precache-manifest.ff5e4dec3d6b7dd1aa2e2cc93360cf6b.js",
+    "service-worker.js": "/CallApiReact/service-worker.js",
+    "static/css/main.f8341c9f.chunk.css.map": "/CallApiReact/static/css/main.f8341c9f.chunk.css.map",
+    "static/js/2.e81d7a0e.chunk.js.LICENSE": "/CallApiReact/static/js/2.e81d7a0e.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d35c712.js",
+    "static/js/2.e81d7a0e.chunk.js",
+    "static/css/main.f8341c9f.chunk.css",
+    "static/js/main.47dda533.chunk.js"
+  ]
+}
