@@ -9,7 +9,24 @@ class ProductActionPage extends Component {
             id: '',
             txtName: '',
             txtPrice: '',
-            chkbStatus: ''
+            chkbStatus: false
+        }
+    }
+
+    componentDidMount() {
+        var {match} = this.props;
+        if (match) {
+            let id = match.params.id;
+            callApi(`products/${id}`, 'get', null).then(res => {
+                let data = res.data;
+                console.log(data);
+                this.setState({
+                    id: data.id,
+                    txtName: data.name,
+                    txtPrice: data.price,
+                    chkbStatus: data.status
+                })
+            });
         }
     }
 
@@ -23,15 +40,25 @@ class ProductActionPage extends Component {
     }
     onSave = (e) => {
         e.preventDefault();
-        let {txtName, txtPrice, chkbStatus} = this.state;
-        let {history}=this.props;
-        callApi('products', 'post', {
-            name: txtName,
-            price: txtPrice,
-            status: chkbStatus
-        }).then(res=>{
-            history.goBack();
-        })
+        let {id, txtName, txtPrice, chkbStatus} = this.state;
+        let {history} = this.props;
+        if (id) {
+            callApi(`products/${id}`, 'put', {
+                name: txtName,
+                price: txtPrice,
+                status: chkbStatus
+            }).then(res => {
+                history.goBack();
+            })
+        } else {
+            callApi('products', 'post', {
+                name: txtName,
+                price: txtPrice,
+                status: chkbStatus
+            }).then(res => {
+                history.goBack();
+            })
+        }
     }
 
     render() {
@@ -69,6 +96,7 @@ class ProductActionPage extends Component {
                                 name='chkbStatus'
                                 value={chkbStatus}
                                 onChange={this.onChange}
+                                checked={chkbStatus}
                             />
                             Còn hàng
                         </label>

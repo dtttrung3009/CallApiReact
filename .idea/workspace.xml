@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2aa920f0-11f7-4093-b9a2-0e0683fbf897" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/Config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/Config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/ProductActionPage/ProductActionPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductActionPage/ProductActionPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductListPage/ProductListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductListPage/ProductListPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +80,7 @@
       <updated>1578488512232</updated>
       <workItem from="1578488514593" duration="4963000" />
       <workItem from="1578541710468" duration="16532000" />
-      <workItem from="1578564413020" duration="4351000" />
+      <workItem from="1578564413020" duration="6891000" />
     </task>
     <servers />
   </component>
