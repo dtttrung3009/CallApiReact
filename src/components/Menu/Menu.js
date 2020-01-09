@@ -19,7 +19,7 @@ const MenuLink = ({label, to, activeOnlyWhenExact}) => {
             path={to}
             exact={activeOnlyWhenExact}
             children={({match}) => {
-                var active = match ? 'active' : '';
+                let active = match ? 'active' : '';
                 return (
                     <li className={active}>
                         <Link to={to}>{label}</Link>
@@ -34,7 +34,7 @@ class Menu extends Component {
     render() {
         return (
             <div className="navbar navbar-default">
-                <a className="navbar-brand">Call API</a>
+                <Link to={'/'} className="navbar-brand">Call API</Link>
                 <ul className="nav navbar-nav">
                     {this.showMenus(menus)}
                 </ul>

@@ -7,7 +7,7 @@ let initialState = [
     },
     {
         id:2,
-        name:'Samsung galaxy S&',
+        name:'Samsung galaxy S8',
         price:7000,
         status:true
     },
